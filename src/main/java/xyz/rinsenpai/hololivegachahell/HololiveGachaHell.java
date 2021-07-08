@@ -39,7 +39,7 @@ public class HololiveGachaHell
         BlockInit.BLOCKS.register(bus);
         
         // Events
-        MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::onGachaBlockRightClick);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::useTokenOnEntities);
 
