@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iii",
+        "iii",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "tutorial:titanium_ingot"
+        }
+    },
+    "result": {
+        "item": "tutorial:titanium_block",
+        "count": 1
+    }
+}

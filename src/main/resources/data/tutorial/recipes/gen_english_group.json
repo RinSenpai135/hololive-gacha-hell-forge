@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_ina"
+        },
+        {
+            "item": "tutorial:token_gura"
+        },
+        {
+            "item": "tutorial:token_amelia"
+        },
+        {
+            "item": "tutorial:token_calliope"
+        },
+        {
+            "item": "tutorial:token_kiara"
+        }
+    ],
+    "result": {
+        "item": "tutorial:myth_group",
+        "count": 1
+    }
+}

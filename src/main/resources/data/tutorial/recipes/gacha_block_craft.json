@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "isi",
+        "rir",
+        "isi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "s": {
+            "item": "tutorial:mystic_shard"
+        },
+        "r": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "item": "tutorial:gacha_block",
+        "count": 1
+    }
+}

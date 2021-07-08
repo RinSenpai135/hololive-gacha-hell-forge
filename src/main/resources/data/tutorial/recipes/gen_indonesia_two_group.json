@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_anya"
+        },
+        {
+            "item": "tutorial:token_reine"
+        },
+        {
+            "item": "tutorial:token_ollie"
+        }
+    ],
+    "result": {
+        "item": "tutorial:indonesia_gen_two_group",
+        "count": 1
+    }
+}

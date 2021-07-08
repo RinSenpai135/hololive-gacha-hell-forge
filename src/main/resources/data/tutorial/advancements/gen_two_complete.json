@@ -1,0 +1,66 @@
+{
+  "parent": "tutorial:gacha_hell",
+  "display": {
+    "icon": {
+      "item": "tutorial:second_gen_group"
+    },
+    "title": "Hololive 2nd Generation",
+    "description": "Get all Hololive 2nd Generation talents tokens",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aqua": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_aqua"
+          }
+        ]
+      }
+    },
+    "shion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_shion"
+          }
+        ]
+      }
+    },
+    "ayame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_ayame"
+          }
+        ]
+      }
+    },
+    "choco": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_choco"
+          }
+        ]
+      }
+    },
+    "subaru": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_subaru"
+          }
+        ]
+      }
+    }
+  }
+}

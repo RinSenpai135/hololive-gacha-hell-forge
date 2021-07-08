@@ -1,0 +1,42 @@
+{
+	"matsuri": {
+		"sounds": [ "tutorial:matsuri1", "tutorial:matsuri2" ]
+	},
+	
+	"fubuki": {
+		"sounds": [ "tutorial:fubuki1", "tutorial:fubuki2" ]
+	},
+	
+	"subaru": {
+		"sounds": [ "tutorial:subaru1" ]
+	},
+	
+	"mio": {
+		"sounds": [ "tutorial:mio1" ]
+	},
+	
+	"okayu": {
+		"sounds": [ "tutorial:okayu1" ]
+	},
+	
+	"korone": { 
+		"sounds": [ "tutorial:korone1", "tutorial:korone2" ]
+	},
+	
+	"pekora": {
+		"sounds": [ "tutorial:pekora1", "tutorial:pekora2" ]
+	},
+	
+	"marine": { 
+		"sounds": [ "tutorial:marine1", "tutorial:marine2" ]
+	},
+	
+	"ina": { 
+		"sounds": [ "tutorial:ina1" ]
+	},
+	
+	"gura": { 
+		"sounds": [ "tutorial:gura1" ]
+	}
+	
+}

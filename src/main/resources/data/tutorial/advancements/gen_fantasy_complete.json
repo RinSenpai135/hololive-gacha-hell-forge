@@ -1,0 +1,66 @@
+{
+  "parent": "tutorial:gacha_hell",
+  "display": {
+    "icon": {
+      "item": "tutorial:hololive_fantasy_group"
+    },
+    "title": "Hololive Fantasy Generation",
+    "description": "Get all Hololive Fantasy talents tokens",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "marine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_marine"
+          }
+        ]
+      }
+    },
+    "pekora": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_pekora"
+          }
+        ]
+      }
+    },
+    "noel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_noel"
+          }
+        ]
+      }
+    },
+    "flare": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_flare"
+          }
+        ]
+      }
+    },
+    "rushia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_rushia"
+          }
+        ]
+      }
+    }
+  }
+}

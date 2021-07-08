@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_noel"
+        },
+        {
+            "item": "tutorial:token_flare"
+        },
+        {
+            "item": "tutorial:token_marine"
+        },
+        {
+            "item": "tutorial:token_rushia"
+        },
+        {
+            "item": "tutorial:token_pekora"
+        }
+    ],
+    "result": {
+        "item": "tutorial:hololive_fantasy_group",
+        "count": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+    	"item": "tutorial:titanium_shard"
+    },
+    "result": "tutorial:titanium_ingot",
+    "experience": 0.4,
+    "cookingtime": 200
+}

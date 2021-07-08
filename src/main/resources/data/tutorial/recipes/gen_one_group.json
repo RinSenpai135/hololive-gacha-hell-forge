@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_fubuki"
+        },
+        {
+            "item": "tutorial:token_aki"
+        },
+        {
+            "item": "tutorial:token_mel"
+        },
+        {
+            "item": "tutorial:token_haachama"
+        },
+        {
+            "item": "tutorial:token_matsuri"
+        }
+    ],
+    "result": {
+        "item": "tutorial:first_gen_group",
+        "count": 1
+    }
+}

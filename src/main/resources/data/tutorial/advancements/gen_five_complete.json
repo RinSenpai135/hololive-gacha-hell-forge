@@ -1,0 +1,56 @@
+{
+  "parent": "tutorial:gacha_hell",
+  "display": {
+    "icon": {
+      "item": "tutorial:fifth_gen_group"
+    },
+    "title": "Hololive 5th Generation",
+    "description": "Get all Hololive 5th Generation talents tokens",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lamy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_lamy"
+          }
+        ]
+      }
+    },
+    "botan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_botan"
+          }
+        ]
+      }
+    },
+    "polka": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_polka"
+          }
+        ]
+      }
+    },
+    "nene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_nene"
+          }
+        ]
+      }
+    }
+  }
+}

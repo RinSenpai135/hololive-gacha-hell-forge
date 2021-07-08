@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_fubuki"
+        },
+        {
+            "item": "tutorial:token_okayu"
+        },
+        {
+            "item": "tutorial:token_korone"
+        },
+        {
+            "item": "tutorial:token_mio"
+        }
+    ],
+    "result": {
+        "item": "tutorial:gamers_group",
+        "count": 1
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_moona"
+        },
+        {
+            "item": "tutorial:token_iofi"
+        },
+        {
+            "item": "tutorial:token_risu"
+        }
+    ],
+    "result": {
+        "item": "tutorial:indonesia_gen_one_group",
+        "count": 1
+    }
+}

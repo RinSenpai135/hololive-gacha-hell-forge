@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_lamy"
+        },
+        {
+            "item": "tutorial:token_nene"
+        },
+        {
+            "item": "tutorial:token_polka"
+        },
+        {
+            "item": "tutorial:token_botan"
+        }
+    ],
+    "result": {
+        "item": "tutorial:fifth_gen_group",
+        "count": 1
+    }
+}

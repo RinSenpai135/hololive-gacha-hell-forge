@@ -1,0 +1,6 @@
+{ 
+	"parent": "item/generated",
+	"textures": { 
+		"layer0": "tutorial:items/indonesia_gen_two_group"
+	}
+}

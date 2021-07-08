@@ -1,0 +1,66 @@
+{
+  "parent": "tutorial:gacha_hell",
+  "display": {
+    "icon": {
+      "item": "tutorial:fourth_gen_group"
+    },
+    "title": "Hololive 4th Generation",
+    "description": "Get all Hololive 4th Generation talents tokens",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "coco": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_coco"
+          }
+        ]
+      }
+    },
+    "kanata": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_kanata"
+          }
+        ]
+      }
+    },
+    "towa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_towa"
+          }
+        ]
+      }
+    },
+    "watame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_watame"
+          }
+        ]
+      }
+    },
+    "luna": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_luna"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "tutorial:tokens"
+        },
+        {
+            "tag": "tutorial:tokens"
+        },
+        {
+            "tag": "tutorial:tokens"
+        },
+        {
+            "item": "minecraft:gold_ingot"
+        }
+    ],
+    "result": {
+        "item": "tutorial:reroll_coin",
+        "count": 1
+    }
+}

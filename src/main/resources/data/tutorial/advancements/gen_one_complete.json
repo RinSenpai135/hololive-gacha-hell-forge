@@ -1,0 +1,66 @@
+{
+  "parent": "tutorial:gacha_hell",
+  "display": {
+    "icon": {
+      "item": "tutorial:first_gen_group"
+    },
+    "title": "Hololive 1st Generation",
+    "description": "Get all Hololive 1st Generation talents tokens",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fubuki": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_fubuki"
+          }
+        ]
+      }
+    },
+    "haachama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_haachama"
+          }
+        ]
+      }
+    },
+    "aki": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_aki"
+          }
+        ]
+      }
+    },
+    "mel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_mel"
+          }
+        ]
+      }
+    },
+    "matsuri": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:token_matsuri"
+          }
+        ]
+      }
+    }
+  }
+}

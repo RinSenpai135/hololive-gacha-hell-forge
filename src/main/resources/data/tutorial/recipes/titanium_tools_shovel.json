@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " i ",
+        " w ",
+        " w "
+    ],
+    "key": {
+        "i": {
+            "item": "tutorial:titanium_ingot"
+        },
+        "w": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "tutorial:titanium_shovel",
+        "count": 1
+    }
+}

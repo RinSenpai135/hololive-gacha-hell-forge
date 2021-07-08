@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "tutorial:mystic_orb"
+    },
+    "title": "Hololive: Gacha Hell",
+    "description": "You got your hands on a strange orb... Try using it on a special block.",
+    "background": "tutorial:textures/gui/advancements/background/hololive_play.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "tutorial:mystic_orb"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+  	"recipes": [ 
+  		"tutorial:gacha_block_craft"
+  	]
+  }
+}

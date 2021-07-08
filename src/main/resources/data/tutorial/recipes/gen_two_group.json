@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_aqua"
+        },
+        {
+            "item": "tutorial:token_shion"
+        },
+        {
+            "item": "tutorial:token_choco"
+        },
+        {
+            "item": "tutorial:token_subaru"
+        },
+        {
+            "item": "tutorial:token_ayame"
+        }
+    ],
+    "result": {
+        "item": "tutorial:second_gen_group",
+        "count": 1
+    }
+}

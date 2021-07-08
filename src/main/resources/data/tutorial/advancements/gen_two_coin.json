@@ -1,0 +1,26 @@
+{
+  "parent": "tutorial:gen_two_complete",
+  "display": {
+    "icon": {
+      "item": "tutorial:second_gen_group"
+    },
+    "title": "Hololive 2nd Generation Coin",
+    "description": "Use tokens in order to collect other tokens!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "coin": { 
+      "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+    	"items": [
+  		  {
+			"item": "tutorial:second_gen_group"
+          }
+        ]
+      }
+	}
+  }
+}

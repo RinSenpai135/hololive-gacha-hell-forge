@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "fif",
+        "gdg",
+        "fif"
+    ],
+    "key": {
+        "i": {
+            "item": "tutorial:mystic_shard"
+        },
+        "f": {
+            "item": "minecraft:iron_nugget"
+        },
+        "g": {
+            "item": "minecraft:gold_nugget"
+        },
+        "d": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "tutorial:mystic_orb",
+        "count": 1
+    }
+}

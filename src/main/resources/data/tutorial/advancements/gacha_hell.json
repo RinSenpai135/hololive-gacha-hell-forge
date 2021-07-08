@@ -1,0 +1,26 @@
+{
+  "parent": "tutorial:mystic_orb",
+  "display": {
+    "icon": {
+      "item": "tutorial:gacha_block"
+    },
+    "title": "Welcome to GACHA HELL!",
+    "description": "You pulled your first token! Get them all!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "tutorial:tokens"
+          }
+        ]
+      }
+    }
+  }
+}

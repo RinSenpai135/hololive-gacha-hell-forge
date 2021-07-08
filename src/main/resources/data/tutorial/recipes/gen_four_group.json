@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "tutorial:token_coco"
+        },
+        {
+            "item": "tutorial:token_kanata"
+        },
+        {
+            "item": "tutorial:token_luna"
+        },
+        {
+            "item": "tutorial:token_towa"
+        },
+        {
+            "item": "tutorial:token_watame"
+        }
+    ],
+    "result": {
+        "item": "tutorial:fourth_gen_group",
+        "count": 1
+    }
+}
