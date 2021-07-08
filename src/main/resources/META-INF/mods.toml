@@ -6,7 +6,7 @@ license="All rights reserved"
 
 [[mods]]
 # The modid of the mod
-modId="tutorial"
+modId="hololivegachahell"
 
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
@@ -20,7 +20,7 @@ displayName="Hololive Gacha Hell"
 #updateJSONURL="https://change.me.example.invalid/updates.json"
 
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="http://www.rinsenpai.xyz/"
+#displayURL="https://github.com/RinSenpai135/hololive-gacha-hell-forge"
 
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="mod_icon.png"
