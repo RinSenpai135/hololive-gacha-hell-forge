@@ -8,8 +8,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import xyz.rinsenpai.hololivegachahell.common.tab.TutorialGroup;
-import xyz.rinsenpai.hololivegachahell.common.tab.TutorialTokenGroup;
+import xyz.rinsenpai.hololivegachahell.common.tab.HghModGroup;
+import xyz.rinsenpai.hololivegachahell.common.tab.HghTokenGroup;
 import xyz.rinsenpai.hololivegachahell.core.events.ModEvents;
 import xyz.rinsenpai.hololivegachahell.core.init.BlockInit;
 import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
@@ -24,8 +24,8 @@ public class HololiveGachaHell
 {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "tutorial";
-    public static final ItemGroup MAIN_MOD_TAB = new TutorialGroup("tutorial");
-    public static final ItemGroup TOKEN_TAB = new TutorialTokenGroup("tokens");
+    public static final ItemGroup MAIN_MOD_TAB = new HghModGroup("hololivegachahell");
+    public static final ItemGroup TOKEN_TAB = new HghTokenGroup("tokens");
 
     public HololiveGachaHell() {
     	

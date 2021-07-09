@@ -28,7 +28,7 @@ import xyz.rinsenpai.hololivegachahell.common.items.TokenItem;
 import xyz.rinsenpai.hololivegachahell.core.init.BlockInit;
 import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
 
-@EventBusSubscriber(value = Dist.DEDICATED_SERVER, modid = "tutorial")
+@EventBusSubscriber(value = Dist.DEDICATED_SERVER, modid = "hololivegachahell")
 public class ModEvents {
 
 	@SubscribeEvent
