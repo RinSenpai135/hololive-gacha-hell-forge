@@ -19,7 +19,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("tutorial")
+@Mod("hololivegachahell")
 public class HololiveGachaHell
 {
     public static final Logger LOGGER = LogManager.getLogger();
