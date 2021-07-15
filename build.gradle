@@ -14,7 +14,7 @@ apply plugin: 'maven-publish'
 
 version = '0.0.1_fix-alpha'
 group = 'xyz.rinsenpai.hololivegachahell' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'hololivegachahell-forge-1.16.5-'
+archivesBaseName = 'hololivegachahell-forge_1.16.5'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
