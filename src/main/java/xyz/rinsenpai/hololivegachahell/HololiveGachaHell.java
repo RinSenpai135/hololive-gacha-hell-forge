@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
 public class HololiveGachaHell
 {
     public static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "tutorial";
+    public static final String MOD_ID = "hololivegachahell";
     public static final ItemGroup MAIN_MOD_TAB = new HghModGroup("hololivegachahell");
     public static final ItemGroup TOKEN_TAB = new HghTokenGroup("tokens");
 
