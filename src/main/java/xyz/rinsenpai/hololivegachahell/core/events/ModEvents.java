@@ -71,51 +71,51 @@ public class ModEvents {
 		if(!world.isClientSide) {
 			if(itemstack.getItem() == ItemInit.TOKEN_GURA.get()) {
 				if(player.isInWaterOrRain()) {
-					player.playSound(new SoundEvent(new ResourceLocation("tutorial","gura")), 1.0f, 1.0f);
+					player.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","gura")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_KORONE.get()) {
 				if(target instanceof WolfEntity && target.isAlliedTo(player)) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","korone")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","korone")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_MIO.get()) {
 				if(target instanceof WolfEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","mio")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","mio")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_SUBARU.get()) {
 				if(target instanceof ChickenEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","subaru")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","subaru")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_KIARA.get()) {
-				target.playSound(new SoundEvent(new ResourceLocation("tutorial","kiara")), 1.0f, 1.0f);
+				target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","kiara")), 1.0f, 1.0f);
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_MATSURI.get()) {
-				player.playSound(new SoundEvent(new ResourceLocation("tutorial","matsuri")), 1.0f, 1.0f);
+				player.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","matsuri")), 1.0f, 1.0f);
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_MARINE.get()) {
-				player.playSound(new SoundEvent(new ResourceLocation("tutorial","marine")), 1.0f, 1.0f);
+				player.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","marine")), 1.0f, 1.0f);
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_OKAYU.get()) {
 				if(target instanceof CatEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","okayu")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","okayu")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_PEKORA.get()) {
 				if(target instanceof RabbitEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","pekora")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","pekora")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_INA.get()) {
 				if(target instanceof SquidEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","ina")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ina")), 1.0f, 1.0f);
 				}
 			}
 			if(itemstack.getItem() == ItemInit.TOKEN_FUBUKI.get()) {
 				if(target instanceof FoxEntity) {
-					target.playSound(new SoundEvent(new ResourceLocation("tutorial","fubuki")), 1.0f, 1.0f);
+					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","fubuki")), 1.0f, 1.0f);
 				}
 			}
 		}
