@@ -7,14 +7,14 @@
     ],
     "key": {
         "i": {
-            "item": "tutorial:titanium_ingot"
+            "item": "hololivegachahell:titanium_ingot"
         },
         "w": {
             "item": "minecraft:stick"
         }
     },
     "result": {
-        "item": "tutorial:titanium_hoe",
+        "item": "hololivegachahell:titanium_hoe",
         "count": 1
     }
 }

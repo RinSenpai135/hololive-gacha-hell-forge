@@ -1,8 +1,8 @@
 {
-  "parent": "tutorial:gacha_hell",
+  "parent": "hololivegachahell:gacha_hell",
   "display": {
     "icon": {
-      "item": "tutorial:second_gen_group"
+      "item": "hololivegachahell:second_gen_group"
     },
     "title": "Hololive 2nd Generation",
     "description": "Get all Hololive 2nd Generation talents tokens",
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_aqua"
+            "item": "hololivegachahell:token_aqua"
           }
         ]
       }
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_shion"
+            "item": "hololivegachahell:token_shion"
           }
         ]
       }
@@ -37,7 +37,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_ayame"
+            "item": "hololivegachahell:token_ayame"
           }
         ]
       }
@@ -47,7 +47,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_choco"
+            "item": "hololivegachahell:token_choco"
           }
         ]
       }
@@ -57,7 +57,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_subaru"
+            "item": "hololivegachahell:token_subaru"
           }
         ]
       }

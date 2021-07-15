@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_fubuki"
+            "item": "hololivegachahell:token_fubuki"
         },
         {
-            "item": "tutorial:token_okayu"
+            "item": "hololivegachahell:token_okayu"
         },
         {
-            "item": "tutorial:token_korone"
+            "item": "hololivegachahell:token_korone"
         },
         {
-            "item": "tutorial:token_mio"
+            "item": "hololivegachahell:token_mio"
         }
     ],
     "result": {
-        "item": "tutorial:gamers_group",
+        "item": "hololivegachahell:gamers_group",
         "count": 1
     }
 }

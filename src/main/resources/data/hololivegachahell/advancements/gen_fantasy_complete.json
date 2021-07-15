@@ -1,8 +1,8 @@
 {
-  "parent": "tutorial:gacha_hell",
+  "parent": "hololivegachahell:gacha_hell",
   "display": {
     "icon": {
-      "item": "tutorial:hololive_fantasy_group"
+      "item": "hololivegachahell:hololive_fantasy_group"
     },
     "title": "Hololive Fantasy Generation",
     "description": "Get all Hololive Fantasy talents tokens",
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_marine"
+            "item": "hololivegachahell:token_marine"
           }
         ]
       }
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_pekora"
+            "item": "hololivegachahell:token_pekora"
           }
         ]
       }
@@ -37,7 +37,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_noel"
+            "item": "hololivegachahell:token_noel"
           }
         ]
       }
@@ -47,7 +47,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_flare"
+            "item": "hololivegachahell:token_flare"
           }
         ]
       }
@@ -57,7 +57,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_rushia"
+            "item": "hololivegachahell:token_rushia"
           }
         ]
       }

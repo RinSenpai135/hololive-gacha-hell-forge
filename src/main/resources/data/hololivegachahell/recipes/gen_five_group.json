@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_lamy"
+            "item": "hololivegachahell:token_lamy"
         },
         {
-            "item": "tutorial:token_nene"
+            "item": "hololivegachahell:token_nene"
         },
         {
-            "item": "tutorial:token_polka"
+            "item": "hololivegachahell:token_polka"
         },
         {
-            "item": "tutorial:token_botan"
+            "item": "hololivegachahell:token_botan"
         }
     ],
     "result": {
-        "item": "tutorial:fifth_gen_group",
+        "item": "hololivegachahell:fifth_gen_group",
         "count": 1
     }
 }

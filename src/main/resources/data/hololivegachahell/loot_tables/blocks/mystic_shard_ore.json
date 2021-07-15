@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "tutorial:mystic_shard_ore",
+              "name": "hololivegachahell:mystic_shard_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "tutorial:mystic_shard",
+              "name": "hololivegachahell:mystic_shard",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

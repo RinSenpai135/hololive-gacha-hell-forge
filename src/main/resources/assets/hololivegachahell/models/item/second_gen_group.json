@@ -1,6 +1,6 @@
 { 
 	"parent": "item/generated",
 	"textures": { 
-		"layer0": "tutorial:items/second_gen_group"
+		"layer0": "hololivegachahell:items/second_gen_group"
 	}
 }

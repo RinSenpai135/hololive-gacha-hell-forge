@@ -2,23 +2,23 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_coco"
+            "item": "hololivegachahell:token_coco"
         },
         {
-            "item": "tutorial:token_kanata"
+            "item": "hololivegachahell:token_kanata"
         },
         {
-            "item": "tutorial:token_luna"
+            "item": "hololivegachahell:token_luna"
         },
         {
-            "item": "tutorial:token_towa"
+            "item": "hololivegachahell:token_towa"
         },
         {
-            "item": "tutorial:token_watame"
+            "item": "hololivegachahell:token_watame"
         }
     ],
     "result": {
-        "item": "tutorial:fourth_gen_group",
+        "item": "hololivegachahell:fourth_gen_group",
         "count": 1
     }
 }

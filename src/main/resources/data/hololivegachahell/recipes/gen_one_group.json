@@ -2,23 +2,23 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_fubuki"
+            "item": "hololivegachahell:token_fubuki"
         },
         {
-            "item": "tutorial:token_aki"
+            "item": "hololivegachahell:token_aki"
         },
         {
-            "item": "tutorial:token_mel"
+            "item": "hololivegachahell:token_mel"
         },
         {
-            "item": "tutorial:token_haachama"
+            "item": "hololivegachahell:token_haachama"
         },
         {
-            "item": "tutorial:token_matsuri"
+            "item": "hololivegachahell:token_matsuri"
         }
     ],
     "result": {
-        "item": "tutorial:first_gen_group",
+        "item": "hololivegachahell:first_gen_group",
         "count": 1
     }
 }

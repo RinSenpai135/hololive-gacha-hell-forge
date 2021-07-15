@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "tag": "tutorial:tokens"
+            "tag": "hololivegachahell:tokens"
         },
         {
-            "tag": "tutorial:tokens"
+            "tag": "hololivegachahell:tokens"
         },
         {
-            "tag": "tutorial:tokens"
+            "tag": "hololivegachahell:tokens"
         },
         {
             "item": "minecraft:gold_ingot"
         }
     ],
     "result": {
-        "item": "tutorial:reroll_coin",
+        "item": "hololivegachahell:reroll_coin",
         "count": 1
     }
 }

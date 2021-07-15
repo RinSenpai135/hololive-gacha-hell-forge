@@ -2,23 +2,23 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_aqua"
+            "item": "hololivegachahell:token_aqua"
         },
         {
-            "item": "tutorial:token_shion"
+            "item": "hololivegachahell:token_shion"
         },
         {
-            "item": "tutorial:token_choco"
+            "item": "hololivegachahell:token_choco"
         },
         {
-            "item": "tutorial:token_subaru"
+            "item": "hololivegachahell:token_subaru"
         },
         {
-            "item": "tutorial:token_ayame"
+            "item": "hololivegachahell:token_ayame"
         }
     ],
     "result": {
-        "item": "tutorial:second_gen_group",
+        "item": "hololivegachahell:second_gen_group",
         "count": 1
     }
 }

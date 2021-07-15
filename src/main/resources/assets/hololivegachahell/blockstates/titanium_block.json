@@ -1,5 +1,5 @@
 { 
 	"variants": { 
-		"": { "model": "tutorial:block/titanium_block" }
+		"": { "model": "hololivegachahell:block/titanium_block" }
 	}
 }

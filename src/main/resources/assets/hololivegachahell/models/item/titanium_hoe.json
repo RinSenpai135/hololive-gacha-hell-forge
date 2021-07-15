@@ -1,6 +1,6 @@
 { 
 	"parent": "item/handheld",
 	"textures": { 
-		"layer0": "tutorial:items/titanium/titanium_hoe"
+		"layer0": "hololivegachahell:items/titanium/titanium_hoe"
 	}
 }

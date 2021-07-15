@@ -1,5 +1,5 @@
 { 
 	"variants": { 
-		"": { "model": "tutorial:block/mystic_shard_ore" }
+		"": { "model": "hololivegachahell:block/mystic_shard_ore" }
 	}
 }

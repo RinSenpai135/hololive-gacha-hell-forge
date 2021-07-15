@@ -1,8 +1,8 @@
 {
-  "parent": "tutorial:gacha_hell",
+  "parent": "hololivegachahell:gacha_hell",
   "display": {
     "icon": {
-      "item": "tutorial:fifth_gen_group"
+      "item": "hololivegachahell:fifth_gen_group"
     },
     "title": "Hololive 5th Generation",
     "description": "Get all Hololive 5th Generation talents tokens",
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_lamy"
+            "item": "hololivegachahell:token_lamy"
           }
         ]
       }
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_botan"
+            "item": "hololivegachahell:token_botan"
           }
         ]
       }
@@ -37,7 +37,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_polka"
+            "item": "hololivegachahell:token_polka"
           }
         ]
       }
@@ -47,7 +47,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_nene"
+            "item": "hololivegachahell:token_nene"
           }
         ]
       }

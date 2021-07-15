@@ -7,11 +7,11 @@
     ],
     "key": {
         "i": {
-            "item": "tutorial:titanium_ingot"
+            "item": "hololivegachahell:titanium_ingot"
         }
     },
     "result": {
-        "item": "tutorial:titanium_chestplate",
+        "item": "hololivegachahell:titanium_chestplate",
         "count": 1
     }
 }

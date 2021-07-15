@@ -9,7 +9,7 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "tutorial:titanium_ore",
+              "name": "hololivegachahell:titanium_ore",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -28,7 +28,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "tutorial:titanium_shard",
+              "name": "hololivegachahell:titanium_shard",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

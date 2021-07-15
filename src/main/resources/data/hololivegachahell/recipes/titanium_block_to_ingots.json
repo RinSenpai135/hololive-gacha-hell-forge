@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:titanium_block"
+            "item": "hololivegachahell:titanium_block"
         }
     ],
     "result": {
-        "item": "tutorial:titanium_ingot",
+        "item": "hololivegachahell:titanium_ingot",
         "count": 9
     }
 }

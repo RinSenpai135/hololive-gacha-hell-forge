@@ -10,14 +10,14 @@
             "item": "minecraft:iron_ingot"
         },
         "s": {
-            "item": "tutorial:mystic_shard"
+            "item": "hololivegachahell:mystic_shard"
         },
         "r": {
             "item": "minecraft:redstone_block"
         }
     },
     "result": {
-        "item": "tutorial:gacha_block",
+        "item": "hololivegachahell:gacha_block",
         "count": 1
     }
 }

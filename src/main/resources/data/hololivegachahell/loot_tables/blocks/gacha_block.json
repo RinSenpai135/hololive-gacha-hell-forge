@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorial:gacha_block"
+          "name": "hololivegachahell:gacha_block"
         }
       ],
       "conditions": [

@@ -1,8 +1,8 @@
 {
-  "parent": "tutorial:gacha_hell",
+  "parent": "hololivegachahell:gacha_hell",
   "display": {
     "icon": {
-      "item": "tutorial:fourth_gen_group"
+      "item": "hololivegachahell:fourth_gen_group"
     },
     "title": "Hololive 4th Generation",
     "description": "Get all Hololive 4th Generation talents tokens",
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_coco"
+            "item": "hololivegachahell:token_coco"
           }
         ]
       }
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_kanata"
+            "item": "hololivegachahell:token_kanata"
           }
         ]
       }
@@ -37,7 +37,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_towa"
+            "item": "hololivegachahell:token_towa"
           }
         ]
       }
@@ -47,7 +47,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_watame"
+            "item": "hololivegachahell:token_watame"
           }
         ]
       }
@@ -57,7 +57,7 @@
       "conditions": {
         "items": [
           {
-            "item": "tutorial:token_luna"
+            "item": "hololivegachahell:token_luna"
           }
         ]
       }

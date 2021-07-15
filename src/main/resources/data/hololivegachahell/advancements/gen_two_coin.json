@@ -1,8 +1,8 @@
 {
-  "parent": "tutorial:gen_two_complete",
+  "parent": "hololivegachahell:gen_two_complete",
   "display": {
     "icon": {
-      "item": "tutorial:second_gen_group"
+      "item": "hololivegachahell:second_gen_group"
     },
     "title": "Hololive 2nd Generation Coin",
     "description": "Use tokens in order to collect other tokens!",
@@ -17,7 +17,7 @@
 	  "conditions": {
     	"items": [
   		  {
-			"item": "tutorial:second_gen_group"
+			"item": "hololivegachahell:second_gen_group"
           }
         ]
       }

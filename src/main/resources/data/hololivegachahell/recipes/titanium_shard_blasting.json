@@ -1,9 +1,9 @@
 {
     "type": "minecraft:blasting",
     "ingredient": {
-    	"item": "tutorial:titanium_shard"
+    	"item": "hololivegachahell:titanium_shard"
     },
-    "result": "tutorial:titanium_ingot",
+    "result": "hololivegachahell:titanium_ingot",
     "experience": 0.4,
     "cookingtime": 100
 }

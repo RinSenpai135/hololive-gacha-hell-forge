@@ -1,5 +1,5 @@
 {
    	"variants": {
-      	"": { "model": "tutorial:block/gacha_block" }
+      	"": { "model": "hololivegachahell:block/gacha_block" }
    	}
 }

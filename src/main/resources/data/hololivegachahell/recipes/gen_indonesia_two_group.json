@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "tutorial:token_anya"
+            "item": "hololivegachahell:token_anya"
         },
         {
-            "item": "tutorial:token_reine"
+            "item": "hololivegachahell:token_reine"
         },
         {
-            "item": "tutorial:token_ollie"
+            "item": "hololivegachahell:token_ollie"
         }
     ],
     "result": {
-        "item": "tutorial:indonesia_gen_two_group",
+        "item": "hololivegachahell:indonesia_gen_two_group",
         "count": 1
     }
 }

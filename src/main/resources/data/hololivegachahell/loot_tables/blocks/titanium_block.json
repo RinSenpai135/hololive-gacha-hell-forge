@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tutorial:titanium_block"
+          "name": "hololivegachahell:titanium_block"
         }
       ],
       "conditions": [
