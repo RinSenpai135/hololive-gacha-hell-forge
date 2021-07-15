@@ -1,42 +1,42 @@
 {
 	"matsuri": {
-		"sounds": [ "tutorial:matsuri1", "tutorial:matsuri2" ]
+		"sounds": [ "hololivegachahell:matsuri1", "hololivegachahell:matsuri2" ]
 	},
 	
 	"fubuki": {
-		"sounds": [ "tutorial:fubuki1", "tutorial:fubuki2" ]
+		"sounds": [ "hololivegachahell:fubuki1", "hololivegachahell:fubuki2" ]
 	},
 	
 	"subaru": {
-		"sounds": [ "tutorial:subaru1" ]
+		"sounds": [ "hololivegachahell:subaru1" ]
 	},
 	
 	"mio": {
-		"sounds": [ "tutorial:mio1" ]
+		"sounds": [ "hololivegachahell:mio1" ]
 	},
 	
 	"okayu": {
-		"sounds": [ "tutorial:okayu1" ]
+		"sounds": [ "hololivegachahell:okayu1" ]
 	},
 	
 	"korone": { 
-		"sounds": [ "tutorial:korone1", "tutorial:korone2" ]
+		"sounds": [ "hololivegachahell:korone1", "hololivegachahell:korone2" ]
 	},
 	
 	"pekora": {
-		"sounds": [ "tutorial:pekora1", "tutorial:pekora2" ]
+		"sounds": [ "hololivegachahell:pekora1", "hololivegachahell:pekora2" ]
 	},
 	
 	"marine": { 
-		"sounds": [ "tutorial:marine1", "tutorial:marine2" ]
+		"sounds": [ "hololivegachahell:marine1", "hololivegachahell:marine2" ]
 	},
 	
 	"ina": { 
-		"sounds": [ "tutorial:ina1" ]
+		"sounds": [ "hololivegachahell:ina1" ]
 	},
 	
 	"gura": { 
-		"sounds": [ "tutorial:gura1" ]
+		"sounds": [ "hololivegachahell:gura1" ]
 	}
 	
 }
