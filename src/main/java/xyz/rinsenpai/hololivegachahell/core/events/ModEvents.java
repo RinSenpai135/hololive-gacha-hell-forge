@@ -22,13 +22,14 @@ import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteractSpecific;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import xyz.rinsenpai.hololivegachahell.HololiveGachaHell;
 import xyz.rinsenpai.hololivegachahell.common.blocks.GachaBlock;
 import xyz.rinsenpai.hololivegachahell.common.items.CurrencyItem;
 import xyz.rinsenpai.hololivegachahell.common.items.TokenItem;
 import xyz.rinsenpai.hololivegachahell.core.init.BlockInit;
 import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
 
-@EventBusSubscriber(value = Dist.DEDICATED_SERVER, modid = "hololivegachahell")
+@EventBusSubscriber(value = Dist.DEDICATED_SERVER, modid = HololiveGachaHell.MOD_ID)
 public class ModEvents {
 
 	@SubscribeEvent
