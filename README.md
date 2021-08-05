@@ -1,6 +1,6 @@
 # Hololive Gacha Hell (Forge Mod)
 
-Hololive Gacha Hell mod for Minecraft 1.16.5 (Forge).
+Hololive Gacha Hell mod for Minecraft (Forge).
 
 Did you ever wanted to have a gacha machine in Minecraft? Do you know about Hololive?
 
@@ -13,3 +13,5 @@ The goal? Collecting every single coin and token, which is assigned to a Hololiv
 Note: Fellow Hololive followers may know which talents inspired me for doing this.
 
 Disclaimer: I, RinSenpai, am not affiliated in any way by Cover Corp. or Mojang Studios. This mod doesn't represent Cover Corp. and its talents' opinions and personalities, or Mojang Studios opinions. This is purely made for entertainment purposes.
+
+Supported Minecraft Versions: 1.16.5 and 1.17.1
