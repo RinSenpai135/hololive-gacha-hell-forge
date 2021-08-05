@@ -2,12 +2,12 @@ package xyz.rinsenpai.hololivegachahell.common.blocks;
 
 import java.util.ArrayList;
 
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.registries.ForgeRegistries;
 import xyz.rinsenpai.hololivegachahell.common.items.CurrencyItem;
@@ -54,10 +54,10 @@ public class GachaBlock extends Block {
 			finalValue = listObjectCount-1;
 		}
 		//TutorialMod.LOGGER.info("Size: "+listObjectCount+" | Randomizer: "+finalValue+" | Result: "+list.get(finalValue));
-		return list.get(finalValue).asItem();
+		return list.get(finalValue).getItem();
 	}
 	
-	public static void giveItem(Player player, Item item) {
-		player.getInventory().add(new ItemStack(item));
+	public static void giveItem(PlayerEntity player, Item item) {
+		player.inventory.add(new ItemStack(item));
 	}
 }
