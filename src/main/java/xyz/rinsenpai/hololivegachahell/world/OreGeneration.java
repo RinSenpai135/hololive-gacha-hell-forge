@@ -6,6 +6,7 @@ import java.util.Random;
 
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.levelgen.WorldGenerationContext;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
@@ -37,20 +38,7 @@ public class OreGeneration {
 	
 	private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state, int veinSize, int minHeight, int maxHeight, int perChunk) {
 		settings.addFeature(GenerationStep.Decoration.UNDERGROUND_ORES, 
-				Feature.ORE.configured(new OreConfiguration(fillerType, state, veinSize))
-				.decorated(FeatureDecorator.RANGE.configured(new RangeDecoratorConfiguration(new HeightProvider() {
-					
-					@Override
-					public int sample(Random arg0, WorldGenerationContext arg1) {
-						return 0;
-					}
-					
-					@Override
-					public HeightProviderType<?> getType() {
-						// TODO Auto-generated method stub
-						return null;
-					}
-				})))
+				Feature.ORE.configured(new OreConfiguration(fillerType, state, veinSize)).rangeUniform(VerticalAnchor.bottom(), VerticalAnchor.absolute(maxHeight))
 				.squared().count(perChunk));
 	}
 }
