@@ -2,15 +2,15 @@ package xyz.rinsenpai.hololivegachahell.core.enums;
 
 import java.util.function.Supplier;
 
-import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.IArmorMaterial;
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.util.LazyValue;
-import net.minecraft.util.SoundEvent;
-import net.minecraft.util.SoundEvents;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.util.LazyLoadedValue;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
 
-public enum ModArmorTier implements IArmorMaterial {
+public enum ModArmorTier implements ArmorMaterial {
 	
 	TITANIUM("tutorial:titanium", 22, new int[]{3, 6, 6, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> { return Ingredient.of(ItemInit.TITANIUM_INGOT.get());});
 	
@@ -22,7 +22,7 @@ public enum ModArmorTier implements IArmorMaterial {
    	private final SoundEvent sound;
    	private final float toughness;
    	private final float knockbackResistance;
-   	private final LazyValue<Ingredient> repairIngredient;
+   	private final LazyLoadedValue<Ingredient> repairIngredient;
 
    	private ModArmorTier(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
    		this.name = name;
@@ -32,14 +32,14 @@ public enum ModArmorTier implements IArmorMaterial {
    		this.sound = sound;
    		this.toughness = toughness;
    		this.knockbackResistance = knockbackResistance;
-   		this.repairIngredient = new LazyValue<>(repairIngredient);
+   		this.repairIngredient = new LazyLoadedValue<>(repairIngredient);
    	}
 
 	@Override
-	public int getDurabilityForSlot(EquipmentSlotType slotType) { return HEALTH_PER_SLOT[slotType.getIndex()] * this.durabilityMultiplier; }
+	public int getDurabilityForSlot(EquipmentSlot slotType) { return HEALTH_PER_SLOT[slotType.getIndex()] * this.durabilityMultiplier; }
 
 	@Override
-	public int getDefenseForSlot(EquipmentSlotType slotType) { return this.slotProtections[slotType.getIndex()]; }
+	public int getDefenseForSlot(EquipmentSlot slotType) { return this.slotProtections[slotType.getIndex()]; }
 
 	@Override
 	public int getEnchantmentValue() { return this.enchantmentValue; }

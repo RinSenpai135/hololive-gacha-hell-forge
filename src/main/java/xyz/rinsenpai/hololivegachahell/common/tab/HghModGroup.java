@@ -1,10 +1,10 @@
 package xyz.rinsenpai.hololivegachahell.common.tab;
 
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
 
-public class HghModGroup extends ItemGroup {
+public class HghModGroup extends CreativeModeTab {
 
 	public HghModGroup(String label) {
 		super(label);
