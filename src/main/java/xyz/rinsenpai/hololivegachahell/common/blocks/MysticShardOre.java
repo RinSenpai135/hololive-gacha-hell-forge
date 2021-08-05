@@ -2,11 +2,11 @@ package xyz.rinsenpai.hololivegachahell.common.blocks;
 
 import java.util.Random;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.OreBlock;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.material.Material;
-import net.minecraft.util.math.MathHelper;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.OreBlock;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.util.Mth;
 import net.minecraftforge.common.ToolType;
 
 public class MysticShardOre extends OreBlock {
@@ -23,7 +23,7 @@ public class MysticShardOre extends OreBlock {
 	}
 	
 	public int xpOnDrop(Random random) {
-		return MathHelper.nextInt(random, 3, 7);
+		return Mth.nextInt(random, 3, 7);
 	}
 
 }
