@@ -49,6 +49,7 @@ public class HololiveGachaHell
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
+    	
     }
 
     private void setup(final FMLCommonSetupEvent event)
