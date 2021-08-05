@@ -1,6 +1,6 @@
 package xyz.rinsenpai.hololivegachahell;
 
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,8 +24,8 @@ public class HololiveGachaHell
 {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "hololivegachahell";
-    public static final CreativeModeTab MAIN_MOD_TAB = new HghModGroup("hololivegachahell");
-    public static final CreativeModeTab TOKEN_TAB = new HghTokenGroup("tokens");
+    public static final ItemGroup MAIN_MOD_TAB = new HghModGroup("hololivegachahell");
+    public static final ItemGroup TOKEN_TAB = new HghTokenGroup("tokens");
 
     public HololiveGachaHell() {
     	
@@ -49,6 +49,7 @@ public class HololiveGachaHell
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
+        LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().options);
     }
 
     private void setup(final FMLCommonSetupEvent event)
