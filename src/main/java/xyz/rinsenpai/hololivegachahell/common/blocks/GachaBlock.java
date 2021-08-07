@@ -1,7 +1,6 @@
 package xyz.rinsenpai.hololivegachahell.common.blocks;
 
 import java.util.ArrayList;
-
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
@@ -21,6 +20,7 @@ public class GachaBlock extends Block {
 				.strength(2.5f, 3.5f)
 				.harvestTool(ToolType.PICKAXE)
 				.harvestLevel(1)
+				.destroyTime(1.0f)
 				.sound(SoundType.METAL)
 				.requiresCorrectToolForDrops()
 		);
