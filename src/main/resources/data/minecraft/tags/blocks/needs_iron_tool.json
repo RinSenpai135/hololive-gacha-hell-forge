@@ -1,0 +1,9 @@
+{ 
+	"replace": false,
+	"values": [ 
+		"hololivegachahell:gacha_block",
+		"hololivegachahell:titanium_block",
+		"hololivegachahell:titanium_ore",
+		"hololivegachahell:mystic_shard_ore"
+	]
+}
