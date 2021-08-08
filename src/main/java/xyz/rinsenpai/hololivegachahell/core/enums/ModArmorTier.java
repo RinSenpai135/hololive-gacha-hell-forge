@@ -12,7 +12,7 @@ import xyz.rinsenpai.hololivegachahell.core.init.ItemInit;
 
 public enum ModArmorTier implements ArmorMaterial {
 	
-	TITANIUM("tutorial:titanium", 22, new int[]{3, 6, 6, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> { return Ingredient.of(ItemInit.TITANIUM_INGOT.get());});
+	TITANIUM("hololivegachahell:titanium", 22, new int[]{3, 6, 6, 2}, 12, SoundEvents.ARMOR_EQUIP_IRON, 1.0f, 0.0f, () -> { return Ingredient.of(ItemInit.TITANIUM_INGOT.get());});
 	
 	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
    	private final String name;
