@@ -18,7 +18,6 @@ import xyz.rinsenpai.hololivegachahell.world.OreGeneration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod("hololivegachahell")
 public class HololiveGachaHell
 {
@@ -38,7 +37,7 @@ public class HololiveGachaHell
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
         
-        // Events
+        // Mod Events
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::onGachaBlockRightClick);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::useTokenOnEntities);
