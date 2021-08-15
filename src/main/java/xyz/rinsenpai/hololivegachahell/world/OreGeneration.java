@@ -16,8 +16,8 @@ public class OreGeneration {
 
 	public static void generateOres(final BiomeLoadingEvent event) {
 		if(!((event.getCategory().equals(Biome.BiomeCategory.THEEND)) || (event.getCategory().equals(Biome.BiomeCategory.NETHER)))) {
-			generateOre(event.getGeneration(), OreConfiguration.Predicates.NATURAL_STONE, BlockInit.MYSTIC_SHARD_ORE.get().defaultBlockState(), 4, 1, 20, 10);
-			generateOre(event.getGeneration(), OreConfiguration.Predicates.NATURAL_STONE, BlockInit.TITANIUM_ORE.get().defaultBlockState(), 4, 1, 24, 14);
+			generateOre(event.getGeneration(), OreConfiguration.Predicates.NATURAL_STONE, BlockInit.MYSTIC_SHARD_ORE.get().defaultBlockState(), 3, 5, 16, 8);
+			generateOre(event.getGeneration(), OreConfiguration.Predicates.NATURAL_STONE, BlockInit.TITANIUM_ORE.get().defaultBlockState(), 6, 5, 24, 12);
 		}
 		
 		if(event.getCategory().equals(Biome.BiomeCategory.NETHER)) {
