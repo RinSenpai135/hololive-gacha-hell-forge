@@ -12,15 +12,20 @@
     "hidden": false
   },
   "criteria": {
-    "requirement": {
+    "obtain_token": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "items": [
-          {
-            "tag": "hololivegachahell:tokens"
-          }
-        ]
+        "items": [ 
+	        {
+	            "tag": "hololivegachahell:tokens"
+	      	}
+      	]
       }
     }
+  },
+  "requirements": {
+  	[ 
+  		"obtain_token"
+  	]
   }
 }
