@@ -7,6 +7,6 @@ public class TokenItem extends Item {
 
 	public TokenItem() {
 		super(new Item.Properties()
-				.tab(HololiveGachaHell.TOKEN_TAB));
+				.tab(HololiveGachaHell.MAIN_MOD_TAB));
 	}
 }
