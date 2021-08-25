@@ -14,10 +14,12 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteractSpecific;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -117,6 +119,24 @@ public class ModEvents {
 			if(itemstack.getItem() == ItemInit.TOKEN_FUBUKI.get()) {
 				if(target instanceof Fox) {
 					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","fubuki")), 1.0f, 1.0f);
+				}
+			}
+		}
+	}
+	
+	@SubscribeEvent
+	public void onEntityDeath(LivingDeathEvent event) {
+		System.out.println("a");
+		Entity entity = event.getEntity();
+		Level world = entity.level;
+		if(!world.isClientSide) {
+			System.out.println("b");
+			if(entity instanceof Cat) {
+				System.out.println("c");
+				ServerPlayer player = ((Cat) entity).getLoveCause();
+				if(entity.getCustomName().toString() == "Nekonomicon" && entity.isAlliedTo(player)) {
+					System.out.println("d");
+					player.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ina")), 1.0f, 1.0f);
 				}
 			}
 		}
