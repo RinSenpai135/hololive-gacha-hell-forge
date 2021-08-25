@@ -14,7 +14,7 @@ Note: Fellow Hololive followers may know which talents inspired me for doing thi
 
 
 
-I, RinSenpai, am not affiliated in any way by Cover Corp. or Mojang Studios. This mod doesn't represent Cover Corp. and its talents' opinions and personalities, or Mojang Studios opinions. This is purely made for entertainment purposes.
+I, RinSenpai, am not affiliated in any way to Cover Corp. or Mojang Studios. This mod doesn't represent Cover Corp. and its talents' opinions and personalities or Mojang Studios opinions. This is purely made for entertainment purposes.
 
 
 
