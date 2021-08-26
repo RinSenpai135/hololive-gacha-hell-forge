@@ -41,6 +41,7 @@ public class HololiveGachaHell
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, OreGeneration::generateOres);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::onGachaBlockRightClick);
         MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::useTokenOnEntities);
+        MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, ModEvents::onEntityDeath);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
