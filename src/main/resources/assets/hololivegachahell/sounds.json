@@ -37,6 +37,10 @@
 	
 	"gura": { 
 		"sounds": [ "hololivegachahell:gura1" ]
+	},
+	
+	"ungravel": { 
+		"sounds": [ "hololivegachahell:ungravel" ]
 	}
 	
 }

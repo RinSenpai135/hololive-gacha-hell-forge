@@ -14,7 +14,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
@@ -126,17 +125,12 @@ public class ModEvents {
 	
 	@SubscribeEvent
 	public static void onEntityDeath(LivingDeathEvent event) {
-		System.out.println("a");
 		Entity entity = event.getEntity();
 		Level world = entity.level;
 		if(!world.isClientSide) {
-			System.out.println("b");
 			if(entity instanceof Cat) {
-				System.out.println("c");
-				ServerPlayer player = ((Cat) entity).getLoveCause();
-				if(entity.getCustomName().toString() == "Nekonomicon" && entity.isAlliedTo(player)) {
-					System.out.println("d");
-					player.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ina")), 1.0f, 1.0f);
+				if(entity.getCustomName().toString() == "Nekonomicon") {
+					entity.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ungravel")), 1.0f, 1.0f);
 				}
 			}
 		}
