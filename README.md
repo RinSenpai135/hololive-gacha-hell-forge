@@ -16,6 +16,4 @@ Note: Fellow Hololive followers may know which talents inspired me for doing thi
 
 I, RinSenpai, am not affiliated in any way to Cover Corp. or Mojang Studios. This mod doesn't represent Cover Corp. and its talents' opinions and personalities or Mojang Studios opinions. This is purely made for entertainment purposes.
 
-
-
-Supported Minecraft Versions: 1.16.5 and 1.17.1
+You may find archives for 1.16.5, but I am no longer working for 1.16.5 support. The mod now supports 1.17.1.
