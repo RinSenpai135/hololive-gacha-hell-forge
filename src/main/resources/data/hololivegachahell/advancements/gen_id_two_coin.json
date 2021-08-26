@@ -1,10 +1,10 @@
 {
-	"parent": "hololivegachahell:gen_one_complete",
+	"parent": "hololivegachahell:gen_id_two_complete",
 	"display": {
 		"icon": {
-			"item": "hololivegachahell:first_gen_group"
+			"item": "hololivegachahell:indonesia_gen_two_group"
 		},
-		"title": "Hololive 1st Generation Coin",
+		"title": "Hololive Indonesia 2nd Generation Coin",
 		"description": "Use tokens in order to collect other tokens!",
 		"frame": "challenge",
 		"show_toast": true,
@@ -12,13 +12,13 @@
 		"hidden": true
 	},
 	"criteria": {
-		"coin_gen_one": { 
+		"coin_gen_id_two": { 
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [ 
 					{
 						"items": [
-							"hololivegachahell:first_gen_group"
+							"hololivegachahell:indonesia_gen_two_group"
 						]
 					}
 				]
@@ -27,7 +27,7 @@
 	},
 	"requirements": [ 
 		[ 
-			"coin_gen_one"
+			"coin_gen_id_two"
 		]
 	]
 }

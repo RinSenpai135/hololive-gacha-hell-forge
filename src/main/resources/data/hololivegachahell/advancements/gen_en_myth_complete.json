@@ -1,0 +1,53 @@
+{
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:myth_group"
+		},
+		"title": "Hololive EN Myth",
+		"description": "Get all Hololive EN Myth talents tokens",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "hololivegachahell:gacha_hell",
+	"criteria": {
+		"myth_complete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"hololivegachahell:token_kiara"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_calliope"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_amelia"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_gura"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_ina"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"myth_complete"
+		]
+	]
+}

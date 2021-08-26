@@ -1,39 +1,34 @@
 {
 	"parent": "hololivegachahell:gacha_hell",
-	"display": {
+		"display": {
 		"icon": {
-			"item": "hololivegachahell:fifth_gen_group"
+			"item": "hololivegachahell:indonesia_gen_two_group"
 		},
-		"title": "Hololive 5th Generation",
-		"description": "Get all Hololive 5th Generation talents tokens",
+		"title": "Hololive ID Second Generation",
+		"description": "Get all Hololive ID Gen 2 talents tokens",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"gen_five_complete": {
+		"id_two_complete": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": [
-							"hololivegachahell:token_lamy"
+							"hololivegachahell:token_reine"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_botan"
+							"hololivegachahell:token_anya"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_polka"
-						]
-					},
-					{
-						"items": [
-							"hololivegachahell:token_nene"
+							"hololivegachahell:token_ollie"
 						]
 					}
 				]
@@ -42,7 +37,7 @@
 	},
 	"requirements": [ 
 		[ 
-			"gen_five_complete"
+			"id_two_complete"
 		]
 	]
 }

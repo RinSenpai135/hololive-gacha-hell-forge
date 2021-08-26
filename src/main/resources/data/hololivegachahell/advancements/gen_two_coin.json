@@ -1,26 +1,33 @@
 {
-  "parent": "hololivegachahell:gen_two_complete",
-  "display": {
-    "icon": {
-      "item": "hololivegachahell:second_gen_group"
-    },
-    "title": "Hololive 2nd Generation Coin",
-    "description": "Use tokens in order to collect other tokens!",
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": true
-  },
-  "criteria": {
-    "coin": { 
-      "trigger": "minecraft:inventory_changed",
-	  "conditions": {
-    	"items": [
-  		  {
+	"parent": "hololivegachahell:gen_two_complete",
+	"display": {
+		"icon": {
 			"item": "hololivegachahell:second_gen_group"
-          }
-        ]
-      }
-	}
-  }
+		},
+		"title": "Hololive 2nd Generation Coin",
+		"description": "Use tokens in order to collect other tokens!",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"coin_gen_two": { 
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ 
+					{
+						"items": [
+							"hololivegachahell:second_gen_group"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [ 
+		[ 
+			"coin_gen_two"
+		]
+	]
 }
