@@ -1,0 +1,48 @@
+{
+	"parent": "hololivegachahell:gacha_hell",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:first_gen_group"
+		},
+		"title": "Hololive Generation 0",
+		"description": "Get all Hololive Generation 0 talents tokens",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"gen_zero_complete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ 
+					{
+						"items": [
+							"hololivegachahell:token_sora"
+					]
+					},
+					{
+						"items": [ 
+							"hololivegachahell:token_suisei"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_miko"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_roboco"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [  
+		[ 
+			"gen_zero_complete"
+		]
+	]
+}

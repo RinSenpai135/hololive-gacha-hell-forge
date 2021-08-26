@@ -1,0 +1,48 @@
+{
+	"parent": "hololivegachahell:gacha_hell",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:gamers_group"
+		},
+		"title": "Hololive Gamers",
+		"description": "Get all Hololive Gamers talents tokens",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"gen_gamers_complete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"hololivegachahell:token_mio"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_fubuki"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_okayu"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_korone"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [ 
+		[ 
+			"gen_gamers_complete"
+		]
+	]
+}

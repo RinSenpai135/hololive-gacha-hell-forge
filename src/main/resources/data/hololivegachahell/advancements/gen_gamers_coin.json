@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:gamers_group"
+		},
+		"title": "Hololive Gamers Coin",
+		"description": "Use tokens in order to collect other tokens!",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "hololivegachahell:gen_gamers_complete",
+	"criteria": {
+		"coin_fantasy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"hololivegachahell:gamers_group"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"coin_fantasy"
+		]
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"parent": "hololivegachahell:gen_zero_complete",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:gen_zero_group"
+		},
+		"title": "Hololive Generation 0 Coin",
+		"description": "Use tokens in order to collect other tokens!",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"coin_gen_one": { 
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ 
+					{
+						"items": [
+							"hololivegachahell:gen_zero_group"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [ 
+		[ 
+			"coin_gen_one"
+		]
+	]
+}
