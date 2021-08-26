@@ -129,8 +129,9 @@ public class ModEvents {
 		Level world = entity.level;
 		if(!world.isClientSide) {
 			if(entity instanceof Cat) {
-				if(entity.getCustomName().toString() == "Nekonomicon") {
-					entity.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ungravel")), 1.0f, 1.0f);
+				Cat cat = (Cat) entity;
+				if(cat.getName().getString().equalsIgnoreCase("Nekonomicon") && cat.getOwner() != null) {
+					cat.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ungravel")), 1.0f, 1.0f);
 				}
 			}
 		}
