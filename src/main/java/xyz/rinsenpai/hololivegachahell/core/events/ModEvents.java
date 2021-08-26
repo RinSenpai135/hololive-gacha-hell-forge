@@ -18,6 +18,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteractSpecific;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -117,6 +118,20 @@ public class ModEvents {
 			if(itemstack.getItem() == ItemInit.TOKEN_FUBUKI.get()) {
 				if(target instanceof Fox) {
 					target.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","fubuki")), 1.0f, 1.0f);
+				}
+			}
+		}
+	}
+	
+	@SubscribeEvent
+	public static void onEntityDeath(LivingDeathEvent event) {
+		Entity entity = event.getEntity();
+		Level world = entity.level;
+		if(!world.isClientSide) {
+			if(entity instanceof Cat) {
+				Cat cat = (Cat) entity;
+				if(cat.getName().getString().equalsIgnoreCase("Nekonomicon") && cat.getOwner() != null) {
+					cat.playSound(new SoundEvent(new ResourceLocation("hololivegachahell","ungravel")), 1.0f, 1.0f);
 				}
 			}
 		}

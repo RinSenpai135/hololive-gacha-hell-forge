@@ -1,26 +1,26 @@
 {
-  "parent": "hololivegachahell:mystic_orb",
-  "display": {
-    "icon": {
-      "item": "hololivegachahell:gacha_block"
-    },
-    "title": "Welcome to GACHA HELL!",
-    "description": "You pulled your first token! Get them all!",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "hololivegachahell:tokens"
-          }
-        ]
-      }
-    }
-  }
+	"parent": "hololivegachahell:mystic_orb",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:gacha_block"
+		},
+		"title": "Welcome to GACHA HELL!",
+		"description": "You pulled your first token! Get them all!",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"obtain_token": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "hololivegachahell:tokens"
+					}
+				]
+			}
+		}
+	}
 }

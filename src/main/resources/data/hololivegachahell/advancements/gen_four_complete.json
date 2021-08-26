@@ -1,66 +1,53 @@
 {
-  "parent": "hololivegachahell:gacha_hell",
-  "display": {
-    "icon": {
-      "item": "hololivegachahell:fourth_gen_group"
-    },
-    "title": "Hololive 4th Generation",
-    "description": "Get all Hololive 4th Generation talents tokens",
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "coco": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_coco"
-          }
-        ]
-      }
-    },
-    "kanata": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_kanata"
-          }
-        ]
-      }
-    },
-    "towa": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_towa"
-          }
-        ]
-      }
-    },
-    "watame": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_watame"
-          }
-        ]
-      }
-    },
-    "luna": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_luna"
-          }
-        ]
-      }
-    }
-  }
+	"parent": "hololivegachahell:gacha_hell",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:fourth_gen_group"
+		},
+		"title": "Hololive 4th Generation",
+		"description": "Get all Hololive 4th Generation talents tokens",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"gen_four_complete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"hololivegachahell:token_coco"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_kanata"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_towa"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_watame"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_luna"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [ 
+		[ 
+			"gen_four_complete"
+		]
+	]
 }

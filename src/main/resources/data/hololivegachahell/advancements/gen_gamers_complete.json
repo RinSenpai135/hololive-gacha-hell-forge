@@ -2,38 +2,38 @@
 	"parent": "hololivegachahell:gacha_hell",
 	"display": {
 		"icon": {
-			"item": "hololivegachahell:fifth_gen_group"
+			"item": "hololivegachahell:gamers_group"
 		},
-		"title": "Hololive 5th Generation",
-		"description": "Get all Hololive 5th Generation talents tokens",
+		"title": "Hololive Gamers",
+		"description": "Get all Hololive Gamers talents tokens",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"gen_five_complete": {
+		"gen_gamers_complete": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": [
-							"hololivegachahell:token_lamy"
+							"hololivegachahell:token_mio"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_botan"
+							"hololivegachahell:token_fubuki"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_polka"
+							"hololivegachahell:token_okayu"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_nene"
+							"hololivegachahell:token_korone"
 						]
 					}
 				]
@@ -42,7 +42,7 @@
 	},
 	"requirements": [ 
 		[ 
-			"gen_five_complete"
+			"gen_gamers_complete"
 		]
 	]
 }

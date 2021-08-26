@@ -2,52 +2,52 @@
 	"parent": "hololivegachahell:gacha_hell",
 	"display": {
 		"icon": {
-			"item": "hololivegachahell:second_gen_group"
+			"item": "hololivegachahell:first_gen_group"
 		},
-		"title": "Hololive 2nd Generation",
-		"description": "Get all Hololive 2nd Generation talents tokens",
+		"title": "Hololive Generation 0",
+		"description": "Get all Hololive Generation 0 talents tokens",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"gen_two_complete": {
+		"gen_zero_complete": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [ 
 					{
 						"items": [
-							"hololivegachahell:token_aqua"
+							"hololivegachahell:token_sora"
+					]
+					},
+					{
+						"items": [ 
+							"hololivegachahell:token_suisei"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_shion"
+							"hololivegachahell:token_miko"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_ayame"
+							"hololivegachahell:token_roboco"
 						]
 					},
 					{
 						"items": [
-							"hololivegachahell:token_choco"
-						]
-					},
-					{
-						"items": [
-							"hololivegachahell:token_subaru"
+							"hololivegachahell:token_azki"
 						]
 					}
 				]
 			}
 		}
 	},
-	"requirements": [
+	"requirements": [  
 		[ 
-			"gen_two_complete"
+			"gen_zero_complete"
 		]
 	]
 }

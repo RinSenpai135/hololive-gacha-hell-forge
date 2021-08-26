@@ -7,6 +7,6 @@ public class CurrencyItem extends Item {
 
 	public CurrencyItem() {
 		super(new Item.Properties()
-				.tab(HololiveGachaHell.TOKEN_TAB));
+				.tab(HololiveGachaHell.MAIN_MOD_TAB));
 	}
 }

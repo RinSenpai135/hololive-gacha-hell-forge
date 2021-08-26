@@ -1,10 +1,10 @@
 {
-	"parent": "hololivegachahell:gen_one_complete",
+	"parent": "hololivegachahell:gen_zero_complete",
 	"display": {
 		"icon": {
-			"item": "hololivegachahell:first_gen_group"
+			"item": "hololivegachahell:gen_zero_group"
 		},
-		"title": "Hololive 1st Generation Coin",
+		"title": "Hololive Generation 0 Coin",
 		"description": "Use tokens in order to collect other tokens!",
 		"frame": "challenge",
 		"show_toast": true,
@@ -18,7 +18,7 @@
 				"items": [ 
 					{
 						"items": [
-							"hololivegachahell:first_gen_group"
+							"hololivegachahell:gen_zero_group"
 						]
 					}
 				]

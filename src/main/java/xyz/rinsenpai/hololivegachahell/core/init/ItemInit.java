@@ -83,6 +83,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> TOKEN_GURA = ITEMS.register("token_gura", () -> new TokenItem());
 	//public static final RegistryObject<Item> TOKEN_EXAMPLE = ITEMS.register("token_example", () -> new TokenItem());
 
+	public static final RegistryObject<Item> GEN_ZERO_ITEM = ITEMS.register("gen_zero_group", () -> new ItemBase());
 	public static final RegistryObject<Item> FIRST_GEN_ITEM = ITEMS.register("first_gen_group", () -> new ItemBase());
 	public static final RegistryObject<Item> SECOND_GEN_ITEM = ITEMS.register("second_gen_group", () -> new ItemBase());
 	public static final RegistryObject<Item> THIRD_GEN_ITEM = ITEMS.register("hololive_fantasy_group", () -> new ItemBase());

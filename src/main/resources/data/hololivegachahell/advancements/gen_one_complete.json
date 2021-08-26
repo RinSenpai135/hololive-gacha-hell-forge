@@ -1,66 +1,53 @@
 {
-  "parent": "hololivegachahell:gacha_hell",
-  "display": {
-    "icon": {
-      "item": "hololivegachahell:first_gen_group"
-    },
-    "title": "Hololive 1st Generation",
-    "description": "Get all Hololive 1st Generation talents tokens",
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "fubuki": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_fubuki"
-          }
-        ]
-      }
-    },
-    "haachama": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_haachama"
-          }
-        ]
-      }
-    },
-    "aki": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_aki"
-          }
-        ]
-      }
-    },
-    "mel": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_mel"
-          }
-        ]
-      }
-    },
-    "matsuri": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:token_matsuri"
-          }
-        ]
-      }
-    }
-  }
+	"parent": "hololivegachahell:gacha_hell",
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:first_gen_group"
+		},
+		"title": "Hololive 1st Generation",
+		"description": "Get all Hololive 1st Generation talents tokens",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"gen_one_complete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ 
+					{
+						"items": [
+							"hololivegachahell:token_fubuki"
+					]
+					},
+					{
+						"items": [ 
+							"hololivegachahell:token_haachama"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_aki"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_mel"
+						]
+					},
+					{
+						"items": [
+							"hololivegachahell:token_matsuri"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [  
+		[ 
+			"gen_one_complete"
+		]
+	]
 }

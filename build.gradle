@@ -13,7 +13,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply from: 'https://raw.githubusercontent.com/SizableShrimp/Forge-Class-Remapper/main/classremapper.gradle'
 
-version = '0.0.1-alpha'
+version = '0.0.2-alpha'
 group = 'xyz.rinsenpai.hololivegachahell' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'hololivegachahell-forge_1.17.1'
 

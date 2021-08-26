@@ -1,33 +1,33 @@
 {
-	"parent": "hololivegachahell:gen_one_complete",
 	"display": {
 		"icon": {
-			"item": "hololivegachahell:first_gen_group"
+			"item": "hololivegachahell:gamers_group"
 		},
-		"title": "Hololive 1st Generation Coin",
+		"title": "Hololive Gamers Coin",
 		"description": "Use tokens in order to collect other tokens!",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true
 	},
+	"parent": "hololivegachahell:gen_gamers_complete",
 	"criteria": {
-		"coin_gen_one": { 
+		"coin_fantasy": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"items": [ 
+				"items": [
 					{
 						"items": [
-							"hololivegachahell:first_gen_group"
+							"hololivegachahell:gamers_group"
 						]
 					}
 				]
 			}
 		}
 	},
-	"requirements": [ 
-		[ 
-			"coin_gen_one"
+	"requirements": [
+		[
+			"coin_fantasy"
 		]
 	]
 }

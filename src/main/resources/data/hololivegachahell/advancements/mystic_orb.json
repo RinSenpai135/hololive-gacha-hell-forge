@@ -1,31 +1,38 @@
 {
-  "display": {
-    "icon": {
-      "item": "hololivegachahell:mystic_orb"
-    },
-    "title": "Hololive: Gacha Hell",
-    "description": "You got your hands on a strange orb... Try using it on a special block.",
-    "background": "hololivegachahell:textures/gui/advancements/background/hololive_play.png",
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "hololivegachahell:mystic_orb"
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
-  	"recipes": [ 
-  		"hololivegachahell:gacha_block_craft"
-  	]
-  }
+	"display": {
+		"icon": {
+			"item": "hololivegachahell:mystic_orb"
+		},
+		"title": "Hololive: Gacha Hell",
+		"description": "You got your hands on a strange orb... Try using it on a special block.",
+		"background": "hololivegachahell:textures/gui/advancements/background/hololive_play.png",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"craft_mystic_orb": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [ 
+					{
+						"items": [
+							"hololivegachahell:mystic_orb"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[ 
+			"craft_mystic_orb"
+		]
+	],
+	"rewards": {
+		"recipes": [ 
+			"hololivegachahell:gacha_block_craft"
+		]
+	}
 }
