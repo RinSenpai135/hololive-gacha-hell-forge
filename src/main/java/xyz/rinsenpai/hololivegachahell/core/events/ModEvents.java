@@ -125,7 +125,7 @@ public class ModEvents {
 	}
 	
 	@SubscribeEvent
-	public void onEntityDeath(LivingDeathEvent event) {
+	public static void onEntityDeath(LivingDeathEvent event) {
 		System.out.println("a");
 		Entity entity = event.getEntity();
 		Level world = entity.level;
